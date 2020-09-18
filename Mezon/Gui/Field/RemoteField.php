@@ -3,6 +3,7 @@ namespace Mezon\Gui\Field;
 
 use Mezon\CrudService\CrudServiceClient;
 use Mezon\CrudService\CrudServiceClientInterface;
+use Mezon\Gui\Field;
 
 /**
  * Class RemoteField
@@ -17,7 +18,7 @@ use Mezon\CrudService\CrudServiceClientInterface;
 /**
  * Remote field control
  */
-class RemoteField extends \Mezon\Gui\Field
+class RemoteField extends Field
 {
 
     /**
