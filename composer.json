@@ -1,0 +1,35 @@
+{
+	"name": "mezon/remote-field",
+	"description": "Remote field for the FormBuilder",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Dodonov Alexey",
+			"email": "alexey@dodonov.pro",
+			"homepage": "http://gdzone.ru",
+			"role": "Founder"
+		}
+	],
+	"require": {
+		"php": ">=7.2.0",
+		"mezon/field": "^1.0",
+		"mezon/crud-service-client": "^1.0"
+	},
+	"support": {
+		"email": "alexey@dodonov.pro",
+		"issues": "https://github.com/alexdodonov/mezon-remote-field/issues",
+		"source": "https://github.com/alexdodonov/mezon-remote-field"
+	},
+	"minimum-stability": "dev",
+	"homepage": "https://github.com/alexdodonov/mezon-remote-field",
+	"prefer-stable": true,
+	"autoload": {
+		"psr-4": {
+			"Mezon\\": "Mezon/"
+		}
+	},
+	"scripts": {
+		"post-update-cmd": "composer test",
+		"test": "php ./vendor/phpunit/phpunit/phpunit"
+	}
+}
